@@ -31,6 +31,6 @@ def sum(x):
 
 if __name__ == '__main__':
     thread1 = Thread(target=sum, args=(-0.7,))
-    #thread2 = Thread(target=sum, args=(7,))
+    thread2 = Thread(target=sum, args=(3,))
     thread1.start()
-    #thread2.start()
+    thread2.start()
